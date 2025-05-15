@@ -1,64 +1,87 @@
-# Chat with PDF
 
-Chat with PDF is an AI-powered web application that allows users to upload PDF files and interact with them using natural language. Built with Next.js, Clerk authentication, OpenAI, and Qdrant for vector storage, this app provides a seamless experience for querying and chatting with your documents.
+# 📄 Chat with PDF – Your AI Document Companion 🤖
 
-## Features
+**Chat with PDF** is an AI-powered web app that lets you upload PDFs and interact with them using natural language. Built with ⚡️ Next.js, 🧑‍💼 Clerk authentication, 💡 OpenAI, and 🧠 Qdrant vector storage — this app delivers a smooth and modern experience for querying and understanding your documents!
 
-- Upload and manage PDF files
-- Chat with your PDFs using AI
-- User authentication with Clerk
-- Dark mode and modern UI
-- Download and delete PDFs
+---
 
-## Getting Started
+## ✨ Features
 
-### Prerequisites
+✅ Upload and manage your PDF files  
+💬 Chat with your PDFs using AI  
+🔐 User authentication with Clerk  
+🌙 Dark mode & sleek modern UI  
+⬇️ Download & ❌ delete PDFs easily
 
-- Node.js (v18 or higher recommended)
-- pnpm (or npm/yarn)
-- Redis and Qdrant running locally
-- OpenAI API key
+---
 
-### Installation
+## 🚀 Getting Started
 
-1. Clone the repository:
+### 📋 Prerequisites
+
+Make sure you have the following:
+
+- 🟢 Node.js (v18+ recommended)
+- 📦 pnpm / npm / yarn
+- 🔁 Redis & Qdrant (running locally)
+- 🔑 OpenAI API Key
+
+---
+
+### 🛠 Installation
+
+1. **Clone the repo**  
    ```bash
    git clone git@github.com:Ashish-gaba/Chat-with-PDF.git
    cd Chat-with-PDF
    ```
-2. Install dependencies:
+
+2. **Install dependencies**  
    ```bash
    pnpm install
    # or
    npm install
    ```
-3. Set up environment variables:
-   - Copy `.env.example` to `.env` and fill in the required values.
-4. Start the development servers:
+
+3. **Set up environment variables**  
+   - Copy `.env.example` to `.env`
+   - Fill in the required values (OpenAI, Clerk, Qdrant, etc.)
+
+4. **Start development servers**
+
+   In one terminal (for backend):
    ```bash
-   # In one terminal (for the backend)
    cd server
    pnpm start
-   # In another terminal (for the frontend)
+   ```
+
+   In another terminal (for frontend):
+   ```bash
    cd client
    pnpm dev
    ```
 
-## Usage
+---
 
-- Sign up or log in with Clerk
-- Upload a PDF file
-- Start chatting with your document!
+## 🧑‍💻 Usage
 
-## Technologies Used
+1. ✍️ Sign up / Log in with Clerk  
+2. 📤 Upload a PDF  
+3. 🤖 Start chatting with your document!
 
-- Next.js
-- React
-- Clerk
-- OpenAI
-- Qdrant
-- Tailwind CSS
+---
 
-## License
+## 🧰 Tech Stack
 
-MIT
+- ⚡️ [Next.js](https://nextjs.org)
+- ⚛️ [React](https://reactjs.org)
+- 🧑‍💼 [Clerk](https://clerk.dev)
+- 💡 [OpenAI](https://openai.com)
+- 🧠 [Qdrant](https://qdrant.tech)
+- 🎨 [Tailwind CSS](https://tailwindcss.com)
+
+---
+
+## 📄 License
+
+MIT © [Ashish Gaba](https://github.com/Ashish-gaba)
